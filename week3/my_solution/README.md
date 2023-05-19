@@ -36,3 +36,7 @@ The code provided performs the following tasks:
 10. **Concurrency and asynchronous processing:** If performance is a concern, consider using concurrency techniques or asynchronous processing to fetch stock prices in parallel, making the program more efficient.
 
 These suggestions aim to enhance the code's readability, maintainability, performance, and reliability.
+
+### Output
+
+![](output.png)

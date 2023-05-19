@@ -1,4 +1,4 @@
-# Web Scraping Bootcamp
+# Web Scraping Bootcamp 🕷️
 
 Practice code for [The Ultimate Web Scraping With Python Bootcamp 2023](https://www.udemy.com/course/the-ultimate-web-scraping-with-python-bootcamp/) course.
 

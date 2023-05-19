@@ -43,3 +43,7 @@ The provided code performs the following tasks:
 13. **Handle Currency Symbols:** When displaying currency values, consider formatting them with appropriate currency symbols to improve readability.
 
 These suggestions aim to enhance the code's readability, maintainability, performance, and reliability.
+
+### Output
+
+![](output.png)
