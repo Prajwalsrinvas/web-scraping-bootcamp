@@ -1,0 +1,25 @@
+{
+    "output_currency": "USD",
+    "stocks": [
+        {
+            "ticker": "BNS",
+            "exchange": "TSE",
+            "quantity": 100
+        },
+        {
+            "ticker": "GOOGL",
+            "exchange": "NASDAQ",
+            "quantity": 30
+        },
+        {
+            "ticker": "SHOP",
+            "exchange": "TSE",
+            "quantity": 10
+        },
+        {
+            "ticker": "MSFT",
+            "exchange": "NASDAQ",
+            "quantity": 2
+        }
+    ]
+}

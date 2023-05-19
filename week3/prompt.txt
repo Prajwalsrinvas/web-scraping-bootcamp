@@ -1,0 +1,5 @@
+Using ChatGPT to write README.md
+
+You are a senior python developer, explain below code in detail in well formatted markdown. 
+Suggest changes and tips to make this code better.
+Do not include code blocks in the explanation.
