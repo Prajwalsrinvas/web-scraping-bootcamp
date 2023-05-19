@@ -1,0 +1,27 @@
+[
+    {
+        "title": "A Light in the Attic",
+        "price": 51.77,
+        "rating": 3
+    },
+    {
+        "title": "Tipping the Velvet",
+        "price": 53.74,
+        "rating": 1
+    },
+    {
+        "title": "Soumission",
+        "price": 50.1,
+        "rating": 1
+    },
+    {
+        "title": "Sharp Objects",
+        "price": 47.82,
+        "rating": 4
+    },
+    {
+        "title": "Sapiens: A Brief History of Humankind",
+        "price": 54.23,
+        "rating": 5
+    }
+]

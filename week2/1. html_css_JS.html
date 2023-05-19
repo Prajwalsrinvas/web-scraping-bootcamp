@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+
+<body>
+    <h1 id="h1_id">Learning HTML</h1>
+    <button id="btn">toggle link!</button>
+    <br>
+
+    <a href="https://www.google.com" target="_blank"><img height="100" width="300"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1024px-Google_2015_logo.svg.png"></a>
+    <p class="testclass">para 1</p>
+    <p class="testclass">para 2</p>
+</body>
+<style>
+    p {
+        color: red;
+        text-transform: uppercase;
+    }
+
+    #h1_id {
+        border: 2px solid orange;
+
+    }
+
+    .testclass {
+        border: 2px dashed black;
+    }
+
+    #btn {
+        background-color: rgb(10, 158, 158);
+        padding: 10px;
+    }
+</style>
+<script>
+    const link = document.getElementsByTagName("a")[0]
+    const btn = document.getElementById('btn')
+
+
+    const hideLink = () => {
+        link.style.display = "none";
+    }
+
+    const toggleLink = () => {
+        if (link.style.display === "none") {
+            link.style.display = "inline"
+            btn.textContent = "Hide link"
+        }
+        else {
+            link.style.display = "none"
+            btn.textContent = "Show link"
+        }
+    }
+
+
+    btn.addEventListener("click", toggleLink)
+</script>
+
+</html>
