@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML CSS Combinators Example</title>
+    <style>
+        .container div {
+            color: blue;
+        }
+
+        ul>li {
+            color: green;
+        }
+
+        .parent+.sibling {
+            color: red;
+        }
+
+        .ancestor .descendant {
+            color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>Element 1</div>
+        <div>Element 2</div>
+    </div>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+    <div class="parent">Parent Element</div>
+    <div class="sibling">Sibling Element</div>
+    <div class="ancestor">
+        <div class="descendant">Descendant Element</div>
+    </div>
+</body>
+
+</html>
