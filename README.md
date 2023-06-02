@@ -23,5 +23,11 @@ Practice code for [The Ultimate Web Scraping With Python Bootcamp 2023](https://
 
 ## Projects
 
-1. [Portfolio Valuation With Google Finance 📈](https://github.com/Prajwalsrinvas/web-scraping-bootcamp/tree/master/week3/my_solution)
-2. [Unsplash Image Scraper 🖼️](https://github.com/Prajwalsrinvas/web-scraping-bootcamp/tree/master/week5/my_solution)
+### 1. [Portfolio Valuation With Google Finance 📈](https://github.com/Prajwalsrinvas/web-scraping-bootcamp/tree/master/week3/my_solution)
+
+![](week3/my_solution/output.png)
+
+### 2. [Unsplash Image Scraper 🖼️](https://github.com/Prajwalsrinvas/web-scraping-bootcamp/tree/master/week5/my_solution)
+
+![](week5/my_solution/assets/unsplash_dl_demo.gif)
+
