@@ -1,0 +1,6 @@
+aiohttp==3.8.4
+jmespath==1.0.1
+matplotlib==3.7.1
+pandas==2.0.1
+Requests==2.31.0
+tqdm==4.65.0
