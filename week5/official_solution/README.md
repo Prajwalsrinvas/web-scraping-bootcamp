@@ -20,4 +20,4 @@ This project provides code to scrape and download high-quality images related to
 
 ## 📸 Screenshots
 
-![sdcasf](official_solution/output.png)
+![](output.png)
