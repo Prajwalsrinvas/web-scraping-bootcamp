@@ -45,7 +45,32 @@ python unsplash_image_downloader.py --keyword spider --image_count 30 --benchmar
 #### Downloaded images
 ![](assets/downloaded_images.png)
 
-#### Performance benchmark
+#### Performance benchmark scores saved as csv and plot saved as png
 ![](assets/perf_benchmark.png)
+
+#### Performance benchmark:
+
+|crawler_type      |test_1            |test_2            |test_3            |average_time      |
+|------------------|------------------|------------------|------------------|------------------|
+|requests          |43.77858924865723 |19.471466779708862|18.428603649139404|27.22621989250183 |
+|requests_session  |22.73876166343689 |15.675415992736816|15.866717338562012|18.093631664911907|
+|aiohttp           |11.308744192123413|5.796777725219727 |6.504941940307617 |7.870154619216919 |
+|threadpoolexecutor|6.401994228363037 |6.347405433654785 |6.207687854766846 |6.319029172261556 |
+
 ![](perf_benchmark/2023_05_31_19_57_32/performance_plot.png)
+
+### 3. Downloading 75 tarantula images from unsplash
+
+```
+python unsplash_image_downloader.py --keyword tarantula --image_count 75 --benchmark 2
+```
+#### Performance benchmark:
+
+|crawler_type      |test_1            |test_2            |average_time      |
+|------------------|------------------|------------------|------------------|
+|requests          |86.94784784317017 |76.76719880104065 |81.85752332210541 |
+|requests_session  |52.317723512649536|56.81423902511597 |54.56598126888275 |
+|aiohttp           |17.783081531524658|21.12917923927307 |19.456130385398865|
+|threadpoolexecutor|19.55467414855957 |23.745527029037476|21.650100588798523|
+
 ![](perf_benchmark/2023_05_31_20_23_31/performance_plot.png)
