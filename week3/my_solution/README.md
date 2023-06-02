@@ -1,6 +1,10 @@
 # Portfolio Valuation With Google Finance 📈
 
-### Code Explanation
+## Output
+
+![](output.png)
+
+## Code Explanation
 
 The code provided performs the following tasks:
 
@@ -15,7 +19,7 @@ The code provided performs the following tasks:
 9. It prints the stock information in a tabular format using the `to_markdown` function from the `pandas` library.
 10. It prints the total portfolio value.
 
-### Suggestions for Improvement
+## Suggestions for Improvement
 
 1. **Modularize the code:** Instead of having a single large script, it would be beneficial to modularize the code into smaller functions or classes. This would make the code more readable, maintainable, and testable.
 
@@ -39,6 +43,3 @@ The code provided performs the following tasks:
 
 These suggestions aim to enhance the code's readability, maintainability, performance, and reliability.
 
-### Output
-
-![](output.png)

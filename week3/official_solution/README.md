@@ -1,4 +1,10 @@
-### Code Explanation
+# Portfolio Valuation With Google Finance (official solution) 📈
+
+## Output
+
+![](output.png)
+
+## Code Explanation
 
 The provided code performs the following tasks:
 
@@ -14,7 +20,7 @@ The provided code performs the following tasks:
 10. It creates an instance of `Portfolio` using the positions created and assigns it to the `portfolio` variable.
 11. It calls `display_portfolio_summary` with the `portfolio` instance to display the portfolio summary.
 
-### Suggestions for Improvement
+## Suggestions for Improvement
 
 1. **Code Organization:** The code is well-structured using dataclasses and separates concerns into different classes and functions. However, it would be beneficial to further modularize the code into smaller functions or methods to improve readability and maintainability.
 
@@ -43,7 +49,3 @@ The provided code performs the following tasks:
 13. **Handle Currency Symbols:** When displaying currency values, consider formatting them with appropriate currency symbols to improve readability.
 
 These suggestions aim to enhance the code's readability, maintainability, performance, and reliability.
-
-### Output
-
-![](output.png)
