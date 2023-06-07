@@ -1,10 +1,11 @@
-# Quotes Scraper [`(JS rendered version)`](http://quotes.toscrape.com/js/) 
+# Quotes Scraper [(JS rendered version)](http://quotes.toscrape.com/js/) 
 
 ## Week 6 goal:
 
 - Catch up on Week 4 and Week 5 pending content (if any).
 - Practice CSS selectors by completing all levels of [CSS diner](https://flukeout.github.io/).
 - Tackling JavaScript With Microsoft PlayWright.
+
 ---
 
 ## 📍Overview
@@ -29,8 +30,6 @@ The project is a collection of scripts that use various web scraping libraries t
     - https://github.com/microsoft/playwright-python
 
 ## 💻 Modules
-
-Sure! Here's the table without the Module column:
 
 | File                            | Summary                                                                                                                                                                                                                                                                                                                         |
 |:--------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
