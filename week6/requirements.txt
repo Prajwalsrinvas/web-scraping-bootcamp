@@ -1,0 +1,4 @@
+playwright==1.33.0
+Requests==2.31.0
+requests_html==0.10.0
+selectolax==0.3.13
