@@ -8,8 +8,6 @@ The project provides a set of tools for web scraping Unsplash for free images ba
 ---
 ## 💻 Modules
 
-Here's the modified table with the "Module" column removed:
-
 | File                         | Summary                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |:-----------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | plot_perf_benchmark.py       | The code defines a function to plot data from a CSV file into a horizontal bar graph. The data is extracted and sorted before being plotted with xkcd styling. The function also saves the plot as an image file and displays the graph.                                                                                                                                                                                     |
