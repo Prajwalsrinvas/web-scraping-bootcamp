@@ -1,0 +1,50 @@
+[
+    {
+        "field": "title",
+        "selector": "div.StoreSaleWidgetTitle",
+        "type": "text",
+        "required": true
+    },
+    {
+        "field": "thumbnail",
+        "selector": "img.salepreviewwidgets_CapsuleImage_cODQh",
+        "type": "img",
+        "required": true
+    },
+    {
+        "field": "tags",
+        "selector": "div.salepreviewwidgets_StoreSaleWidgetTags_3OSJs a",
+        "type": "text_list",
+        "required": true
+    },
+    {
+        "field": "rating",
+        "selector": "div.gamehover_ReviewScoreValue_2SbZz div",
+        "type": "text",
+        "required": true
+    },
+    {
+        "field": "reviews_count",
+        "selector": "div.gamehover_ReviewScoreCount_1Deyv",
+        "type": "text",
+        "required": true
+    },
+    {
+        "field": "mrp",
+        "selector": "div.salepreviewwidgets_StoreOriginalPrice_1EKGZ",
+        "type": "text",
+        "required": true
+    },
+    {
+        "field": "price",
+        "selector": "div.salepreviewwidgets_StoreSalePriceBox_Wh0L8",
+        "type": "text",
+        "required": true
+    },
+    {
+        "field": "discount",
+        "selector": "div.salepreviewwidgets_StoreSaleDiscountBox_2fpFv",
+        "type": "text",
+        "required": true
+    }
+]
