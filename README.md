@@ -31,3 +31,7 @@ Practice code for [The Ultimate Web Scraping With Python Bootcamp 2023](https://
 
 ![](week5/my_solution/assets/unsplash_dl_demo.gif)
 
+### 3. [Steam Game Offers Scraper 🎮](https://github.com/Prajwalsrinvas/web-scraping-bootcamp/tree/master/week7/my_solution)
+
+![](week7/my_solution/assets/output.png)
+
