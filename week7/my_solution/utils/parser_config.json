@@ -46,5 +46,11 @@
         "selector": "div.salepreviewwidgets_StoreSaleDiscountBox_2fpFv",
         "type": "text",
         "required": true
+    },
+    {
+        "field": "release_date",
+        "selector": "div.salepreviewwidgets_StoreSaleWidgetRelease_3eOdk",
+        "type": "text",
+        "required": true
     }
 ]
