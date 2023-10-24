@@ -18,6 +18,18 @@ class CountriesGdpPipeline:
         return item
 
 
+class NoDuplicateCountryPipeline:
+    def __init__(self):
+        self.countries_seen = set()
+
+    def process_item(self, item, spider):
+        if item["country_name"] in self.countries_seen:
+            raise DropItem(f"Item excluded as country is duplicate: {item}")
+        else:
+            self.countries_seen.add(item["country_name"])
+            return item
+
+
 class SaveToDatabasePipeline:
     def __init__(self):
         self.con = sqlite3.connect("countries_gdp.db")
