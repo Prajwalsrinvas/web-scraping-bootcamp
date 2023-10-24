@@ -6,7 +6,10 @@
 import scrapy
 
 
-class CountriesGdpItem(scrapy.Item):
+class CountryGdpItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    country_name = scrapy.Field()
+    region = scrapy.Field()
+    gdp = scrapy.Field()
+    year = scrapy.Field()

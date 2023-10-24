@@ -1,5 +1,7 @@
 import scrapy
 
+from countries_gdp.items import CountryGdpItem
+
 
 class GdpSpider(scrapy.Spider):
     name = "gdp"
@@ -25,11 +27,10 @@ class GdpSpider(scrapy.Spider):
             #     "year": country.css("td:nth-child(4)::text").get(),
             # }
 
+            item = CountryGdpItem()
             ## xpath selector
-            data = {
-                "country_name": country.xpath("td[1]/a/text()").get(),
-                "region": country.xpath("td[2]/a/text()").get(),
-                "gdp": country.xpath("td[3]/text()").get(),
-                "year": country.xpath("td[4]/text()").get(),
-            }
-            yield data
+            item["country_name"] = country.xpath("td[1]/a/text()").get()
+            item["region"] = country.xpath("td[2]/a/text()").get()
+            item["gdp"] = country.xpath("td[3]/text()").get()
+            item["year"] = country.xpath("td[4]/text()").get()
+            yield item
