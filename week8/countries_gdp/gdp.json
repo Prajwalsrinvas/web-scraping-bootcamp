@@ -9,7 +9,7 @@
         "country_name": "China",
         "region": "Asia",
         "gdp": "17,700,899",
-        "year": "2023"
+        "year": "[n 1]2023"
     },
     {
         "country_name": "Germany",
@@ -129,7 +129,7 @@
         "country_name": "Taiwan",
         "region": "Asia",
         "gdp": "751,930",
-        "year": "2023"
+        "year": "[n 4]2023"
     },
     {
         "country_name": "Belgium",
@@ -237,7 +237,7 @@
         "country_name": "Hong Kong",
         "region": "Asia",
         "gdp": "385,546",
-        "year": "2023"
+        "year": "[n 5]2023"
     },
     {
         "country_name": "South Africa",
@@ -345,7 +345,7 @@
         "country_name": "Ukraine",
         "region": "Europe",
         "gdp": "173,413",
-        "year": "2023"
+        "year": "[n 6]2023"
     },
     {
         "country_name": "Kuwait",
@@ -609,7 +609,7 @@
         "country_name": "Macau",
         "region": "Asia",
         "gdp": "38,480",
-        "year": "2023"
+        "year": "[n 9]2023"
     },
     {
         "country_name": "Lebanon",
@@ -639,7 +639,7 @@
         "country_name": "Cyprus",
         "region": "Asia",
         "gdp": "32,032",
-        "year": "2023"
+        "year": "[n 10]2023"
     },
     {
         "country_name": "Papua New Guinea",
@@ -669,7 +669,7 @@
         "country_name": "Georgia",
         "region": "Europe",
         "gdp": "30,023",
-        "year": "2023"
+        "year": "[n 11]2023"
     },
     {
         "country_name": "Zambia",
@@ -777,7 +777,7 @@
         "country_name": "Palestine",
         "region": "Asia",
         "gdp": "18,109",
-        "year": "2021"
+        "year": "[n 12]2021"
     },
     {
         "country_name": "Mongolia",
@@ -819,7 +819,7 @@
         "country_name": "Moldova",
         "region": "Europe",
         "gdp": "16,000",
-        "year": "2023"
+        "year": "[n 14]2023"
     },
     {
         "country_name": "North Macedonia",
