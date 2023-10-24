@@ -372,12 +372,6 @@
         "year": 2023
     },
     {
-        "country_name": "Cuba",
-        "region": "Americas",
-        "gdp": "—",
-        "year": "107,352"
-    },
-    {
         "country_name": "Dominican Republic",
         "region": "Americas",
         "gdp": 120629,
@@ -516,12 +510,6 @@
         "year": 2023
     },
     {
-        "country_name": "Sri Lanka",
-        "region": "Asia",
-        "gdp": "—",
-        "year": "74,404"
-    },
-    {
         "country_name": "Belarus",
         "region": "Europe",
         "gdp": 68864,
@@ -610,12 +598,6 @@
         "region": "Asia",
         "gdp": 38480,
         "year": 2023
-    },
-    {
-        "country_name": "Lebanon",
-        "region": "Asia",
-        "gdp": "—",
-        "year": "—"
     },
     {
         "country_name": "El Salvador",
@@ -762,12 +744,6 @@
         "year": 2023
     },
     {
-        "country_name": "Syria",
-        "region": "Asia",
-        "gdp": "—",
-        "year": "—"
-    },
-    {
         "country_name": "Gabon",
         "region": "Africa",
         "gdp": 19319,
@@ -804,12 +780,6 @@
         "year": 2023
     },
     {
-        "country_name": "North Korea",
-        "region": "Asia",
-        "gdp": "—",
-        "year": "—"
-    },
-    {
         "country_name": "Guyana",
         "region": "Americas",
         "gdp": 16329,
@@ -838,12 +808,6 @@
         "region": "Asia",
         "gdp": 15153,
         "year": 2023
-    },
-    {
-        "country_name": "Afghanistan",
-        "region": "Asia",
-        "gdp": "—",
-        "year": "—"
     },
     {
         "country_name": "Mauritius",
@@ -924,12 +888,6 @@
         "year": 2023
     },
     {
-        "country_name": "New Caledonia",
-        "region": "Oceania",
-        "gdp": "—",
-        "year": "—"
-    },
-    {
         "country_name": "Equatorial Guinea",
         "region": "Africa",
         "gdp": 10041,
@@ -940,18 +898,6 @@
         "region": "Africa",
         "gdp": 9111,
         "year": 2023
-    },
-    {
-        "country_name": "Monaco",
-        "region": "Europe",
-        "gdp": "—",
-        "year": "—"
-    },
-    {
-        "country_name": "Bermuda",
-        "region": "Americas",
-        "gdp": "—",
-        "year": "7,551"
     },
     {
         "country_name": "Montenegro",
@@ -966,12 +912,6 @@
         "year": 2023
     },
     {
-        "country_name": "Liechtenstein",
-        "region": "Europe",
-        "gdp": "—",
-        "year": "—"
-    },
-    {
         "country_name": "South Sudan",
         "region": "Africa",
         "gdp": 6267,
@@ -982,18 +922,6 @@
         "region": "Americas",
         "gdp": 6220,
         "year": 2023
-    },
-    {
-        "country_name": "French Polynesia",
-        "region": "Oceania",
-        "gdp": "—",
-        "year": "—"
-    },
-    {
-        "country_name": "Cayman Islands",
-        "region": "Americas",
-        "gdp": "—",
-        "year": "—"
     },
     {
         "country_name": "Fiji",
@@ -1044,12 +972,6 @@
         "year": 2023
     },
     {
-        "country_name": "Greenland",
-        "region": "Americas",
-        "gdp": "—",
-        "year": "—"
-    },
-    {
         "country_name": "Belize",
         "region": "Americas",
         "gdp": 3218,
@@ -1066,12 +988,6 @@
         "region": "Africa",
         "gdp": 2760,
         "year": 2023
-    },
-    {
-        "country_name": "Curaçao",
-        "region": "Americas",
-        "gdp": "—",
-        "year": "—"
     },
     {
         "country_name": "Bhutan",
@@ -1104,22 +1020,10 @@
         "year": 2023
     },
     {
-        "country_name": "Eritrea",
-        "region": "Africa",
-        "gdp": "—",
-        "year": "—"
-    },
-    {
         "country_name": "Seychelles",
         "region": "Africa",
         "gdp": 2085,
         "year": 2023
-    },
-    {
-        "country_name": "Zanzibar",
-        "region": "Africa",
-        "gdp": "—",
-        "year": "—"
     },
     {
         "country_name": "East Timor",
@@ -1152,18 +1056,6 @@
         "year": 2023
     },
     {
-        "country_name": "Sint Maarten",
-        "region": "Americas",
-        "gdp": "—",
-        "year": "1,572"
-    },
-    {
-        "country_name": "British Virgin Islands",
-        "region": "Americas",
-        "gdp": "—",
-        "year": "—"
-    },
-    {
         "country_name": "Comoros",
         "region": "Africa",
         "gdp": 1364,
@@ -1180,12 +1072,6 @@
         "region": "Oceania",
         "gdp": 1166,
         "year": 2023
-    },
-    {
-        "country_name": "Turks and Caicos Islands",
-        "region": "Americas",
-        "gdp": "—",
-        "year": "1,139"
     },
     {
         "country_name": "Saint Kitts and Nevis",
@@ -1230,18 +1116,6 @@
         "year": 2023
     },
     {
-        "country_name": "Cook Islands",
-        "region": "Oceania",
-        "gdp": "—",
-        "year": "—"
-    },
-    {
-        "country_name": "Anguilla",
-        "region": "Americas",
-        "gdp": "—",
-        "year": "—"
-    },
-    {
         "country_name": "Marshall Islands",
         "region": "Oceania",
         "gdp": 277,
@@ -1264,12 +1138,6 @@
         "region": "Oceania",
         "gdp": 150,
         "year": 2023
-    },
-    {
-        "country_name": "Montserrat",
-        "region": "Americas",
-        "gdp": "—",
-        "year": "—"
     },
     {
         "country_name": "Tuvalu",

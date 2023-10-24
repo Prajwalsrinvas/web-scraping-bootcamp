@@ -6,8 +6,11 @@
 
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
+from scrapy.exceptions import DropItem
 
 
 class CountriesGdpPipeline:
     def process_item(self, item, spider):
+        if not isinstance(item["gdp"], int):
+            raise DropItem("Item excluded as gdp is missing")
         return item
