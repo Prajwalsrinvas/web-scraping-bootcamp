@@ -1,9 +1,8 @@
 import scrapy
+from periodic_table.items import PeriodicTableItem
 from scrapy import Request
 from scrapy.loader import ItemLoader
 from scrapy_playwright.page import PageMethod
-
-from periodic_table.items import PeriodicTableItem
 
 
 class PeriodicTableSpiderSpider(scrapy.Spider):
