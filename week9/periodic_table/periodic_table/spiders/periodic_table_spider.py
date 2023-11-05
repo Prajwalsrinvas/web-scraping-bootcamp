@@ -1,7 +1,9 @@
 import scrapy
-from periodic_table.items import PeriodicTableItem
 from scrapy import Request
 from scrapy.loader import ItemLoader
+from scrapy_playwright.page import PageMethod
+
+from periodic_table.items import PeriodicTableItem
 
 
 class PeriodicTableSpiderSpider(scrapy.Spider):
@@ -14,10 +16,16 @@ class PeriodicTableSpiderSpider(scrapy.Spider):
             url,
             meta={
                 "playwright": True,
+                "playwright_page_methods": [
+                    PageMethod(
+                        "wait_for_selector",
+                        "#main-content > div > div.break-before-avoid.break-inside-avoid",
+                    )
+                ],
             },
         )
 
-    def parse(self, response):
+    async def parse(self, response):
         elements = response.css(
             '#main-content > div > div.break-before-avoid.break-inside-avoid  div.element[role="listitem"]'
         )

@@ -55,9 +55,9 @@ class SaveToDatabasePipeline:
         self.con.commit()
 
     def process_item(self, item, spider):
-        self.con.execute(
+        self.cur.execute(
             """
-        INSERT INTO periodic_table (symbol, name, atomic_number, atomic_mass, chemical_group) VALUES (?, ?, ?, ?, ?)        
+        INSERT OR IGNORE INTO periodic_table (symbol, name, atomic_number, atomic_mass, chemical_group) VALUES (?, ?, ?, ?, ?)        
         """,
             (
                 item["symbol"],
@@ -68,6 +68,7 @@ class SaveToDatabasePipeline:
             ),
         )
         self.con.commit()
+        return item
 
     def close_spider(self, spider):
         self.con.close()

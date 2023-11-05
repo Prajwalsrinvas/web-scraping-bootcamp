@@ -14,9 +14,9 @@ class PeriodicTableItem(scrapy.Item):
     symbol = scrapy.Field(output_processor=TakeFirst())
     name = scrapy.Field(output_processor=TakeFirst())
     atomic_number = scrapy.Field(
-        input_processor=MapCompose(lambda x: int(x)), output_processor=TakeFirst()
+        input_processor=MapCompose(int), output_processor=TakeFirst()
     )
     atomic_mass = scrapy.Field(
-        input_processor=MapCompose(lambda x: float(x)), output_processor=TakeFirst()
+        input_processor=MapCompose(float), output_processor=TakeFirst()
     )
     chemical_group = scrapy.Field(output_processor=TakeFirst())
