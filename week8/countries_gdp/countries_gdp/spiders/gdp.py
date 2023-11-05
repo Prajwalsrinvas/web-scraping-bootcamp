@@ -1,7 +1,6 @@
 import scrapy
-from scrapy.loader import ItemLoader
-
 from countries_gdp.items import CountryGdpItem
+from scrapy.loader import ItemLoader
 
 
 class GdpSpider(scrapy.Spider):

@@ -7,12 +7,11 @@ from datetime import datetime
 import jmespath as jp
 import pandas as pd
 import requests
-from tqdm.auto import tqdm
-
 from downloaders import (download_images_aiohttp, download_images_requests,
                          download_images_requests_session,
                          download_images_threadpoolexecutor)
 from plot_perf_benchmark import plot_perf_benchmark
+from tqdm.auto import tqdm
 
 
 def hit_unsplash_api(keyword, page=1):
