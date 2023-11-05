@@ -35,3 +35,11 @@ Practice code for [The Ultimate Web Scraping With Python Bootcamp 2023](https://
 
 ![](week7/my_solution/assets/output.png)
 
+### 4. [Dynamic Periodic Table Scraper 🧪](https://github.com/Prajwalsrinvas/web-scraping-bootcamp/tree/master/week9/periodic_table/my_solution)
+
+![](week9/periodic_table/my_solution/output.png)
+
+## Certificate
+
+![](https://udemy-certificate.s3.amazonaws.com/image/UC-4f4a45b6-077e-40cc-85f2-f61de3886651.jpg?v=1699186665000)
+
